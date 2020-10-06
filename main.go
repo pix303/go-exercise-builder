@@ -15,7 +15,7 @@ func main() {
 
 func run() error {
 	pbuilder := &PersonBuilder{}
-	pp, err := pbuilder.SetName("", "Carraro").SetAge(145).Build()
+	pp, err := pbuilder.SetName("", "Smith").SetAge(165).Build()
 	if err != nil {
 		return err
 	}
