@@ -24,9 +24,12 @@ func run() error {
 }
 
 type Person struct {
-	Name    string
+	//Name is how person is called
+	Name string
+	//Surname is how person is identify
 	Surname string
-	Age     int
+	//time pass by
+	Age int
 }
 
 type PersonBuilder struct {
